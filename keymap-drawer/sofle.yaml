@@ -1,7 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, CAPSLOCK, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, lower, raise, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, SPACE, lower, RETURN, SPACE, RCTRL, RALT, RGUI]
+  default:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DELETE
+  - CAPSLOCK
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - lower
+  - raise
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LGUI
+  - LALT
+  - LCTRL
+  - SPACE
+  - {t: one hand, h: toggle}
+  - RETURN
+  - SPACE
+  - RCTRL
+  - RALT
+  - RGUI
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -185,5 +244,125 @@ layers:
   - ''
   - ''
   - ''
-  one hand: [Q, B, P, M, G, X, Q, B, P, M, G, X, R, L, O, D, F, J, R, L, O, D, F, J, N, H, E, T, A, S, N, H, E, T, A, S, V, W, K, C, Y, Z, lower, raise, V, W, K,
-    C, Y, Z, LGUI, LALT, LCTRL, SPACE, RET, RETURN, SPACE, RCTRL, RALT, RGUI]
+  cus1:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - Ctl+Sft+LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - lower
+  - raise
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LGUI
+  - LALT
+  - LCTRL
+  - SPACE
+  - {t: one hand, h: toggle}
+  - RETURN
+  - SPACE
+  - RCTRL
+  - RALT
+  - RGUI
+  one hand:
+  - Q
+  - B
+  - P
+  - M
+  - G
+  - X
+  - Q
+  - B
+  - P
+  - M
+  - G
+  - X
+  - R
+  - L
+  - O
+  - D
+  - F
+  - J
+  - R
+  - L
+  - O
+  - D
+  - F
+  - J
+  - N
+  - H
+  - E
+  - T
+  - A
+  - S
+  - N
+  - H
+  - E
+  - T
+  - A
+  - S
+  - V
+  - W
+  - K
+  - C
+  - Y
+  - Z
+  - lower
+  - raise
+  - V
+  - W
+  - K
+  - C
+  - Y
+  - Z
+  - LGUI
+  - LALT
+  - LCTRL
+  - SPACE
+  - {t: default, h: toggle}
+  - RETURN
+  - SPACE
+  - RCTRL
+  - RALT
+  - RGUI
