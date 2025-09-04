@@ -111,5 +111,20 @@
                                     &none            &none            &none            &none            &none              &none  &none  &none  &none  &none
             >;
         };
+
+        layer_4 {
+            label = "one hand";
+            bindings = <
+&kp Q  &kp B  &kp P     &kp M     &kp G      &kp X                             &kp Q      &kp B      &kp P     &kp M     &kp G  &kp X
+&kp R  &kp L  &kp O     &kp D     &kp F      &kp J                             &kp R      &kp L      &kp O     &kp D     &kp F  &kp J
+&kp N  &kp H  &kp E     &kp T     &kp A      &kp S                             &kp N      &kp H      &kp E     &kp T     &kp A  &kp S
+&kp V  &kp W  &kp K     &kp C     &kp Y      &kp Z      &mo 1      &mo 2       &kp V      &kp W      &kp K     &kp C     &kp Y  &kp Z
+              &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE  &kp RET    &kp RETURN  &kp SPACE  &kp RCTRL  &kp RALT  &kp RGUI
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp PG_UP PG_DN>;
+        };
     };
 };
