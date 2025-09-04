@@ -185,3 +185,5 @@ layers:
   - ''
   - ''
   - ''
+  one hand: [Q, B, P, M, G, X, Q, B, P, M, G, X, R, L, O, D, F, J, R, L, O, D, F, J, N, H, E, T, A, S, N, H, E, T, A, S, V, W, K, C, Y, Z, lower, raise, V, W, K,
+    C, Y, Z, LGUI, LALT, LCTRL, SPACE, RET, RETURN, SPACE, RCTRL, RALT, RGUI]
