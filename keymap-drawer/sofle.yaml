@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - UP
-  - ''''
+  - /
   - LCTRL
   - Z
   - X
@@ -51,7 +51,7 @@ layers:
   - .
   - DOWN
   - RIGHT
-  - /
+  - LEFT WIN
   - LALT
   - lower
   - SPACE
@@ -135,31 +135,31 @@ layers:
   - {t: cus1, h: toggle}
   - {t: one hand, h: toggle}
   - {t: '6', h: toggle}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - PG UP
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INS
   - LALT
   - LCTRL
   - LSHFT
-  - {t: ▽, type: trans}
+  - CONTEXT MENU
   - CLCK
-  - PG DN
+  - PG UP
   - LEFT
   - DOWN
   - RIGHT
   - DEL
   - BSPC
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - UNDO
   - CUT
   - COPY
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: default, h: toggle}
-  - {t: ▽, type: trans}
+  - PG DN
   - F12
   - F13
   - F14
@@ -181,8 +181,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -422,6 +422,67 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: default, h: toggle, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise bkp:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: default, h: toggle}
+  - {t: lower, h: toggle}
+  - {t: adjust, h: toggle}
+  - {t: cus1, h: toggle}
+  - {t: one hand, h: toggle}
+  - {t: '6', h: toggle}
+  - {t: ▽, type: trans}
+  - INS
+  - PSCRN
+  - CMENU
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PG UP
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LALT
+  - LCTRL
+  - LSHFT
+  - {t: ▽, type: trans}
+  - CLCK
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - DEL
+  - BSPC
+  - {t: ▽, type: trans}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - F12
+  - F13
+  - F14
+  - F15
+  - F16
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: adjust, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
