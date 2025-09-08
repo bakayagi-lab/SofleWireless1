@@ -55,14 +55,14 @@ layers:
   - LALT
   - lower
   - SPACE
-  - lower
+  - '6'
   - RETURN
   - SPACE
   - raise
-  - '6'
+  - DEL
   - LEFT
   lower:
-  - {t: ▽, type: trans}
+  - ESC
   - F1
   - F2
   - F3
@@ -367,7 +367,7 @@ layers:
   - RALT
   - RGUI
   '6':
-  - {t: ▽, type: trans}
+  - ESCAPE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -421,9 +421,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: default, h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
