@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - RET
+  - \
   - LEFT SHIFT
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - UP
-  - /
+  - ENTER
   - LCTRL
   - Z
   - X
@@ -173,7 +173,7 @@ layers:
   - F14
   - F15
   - F16
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
